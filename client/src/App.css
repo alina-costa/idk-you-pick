@@ -1,0 +1,123 @@
+.app {
+  min-height: 100vh;
+  background-color: #f6f5ef;
+  padding: 48px 20px;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero {
+  background-color: #e7ecdd;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.eyebrow {
+  color: #365c45;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.hero h1 {
+  color: #243c2c;
+  font-size: clamp(32px, 5vw, 46px);
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+  margin: 0 0 16px;
+}
+
+.hero-description {
+  color: #50634f;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.protein-button {
+  background-color: #f0f3eb;
+  color: #365c45;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.protein-button:hover {
+  background-color: #dce7d8;
+}
+
+.protein-button.active {
+  background-color: #365c45;
+  color: white;
+}
+
+.generator-card {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 4px 24px rgba(36, 60, 44, 0.04);
+}
+
+.generate-button {
+  width: 100%;
+  background-color: #365c45;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: background-color 0.2s ease;
+}
+
+.generate-button:hover {
+  background-color: #294936;
+}
+
+.meal-card {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 4px 24px rgba(36, 60, 44, 0.04);
+}
+
+.meal-label {
+  color: #67806b;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin: 0 0 12px;
+}
+
+.meal-title {
+  color: #243c2c;
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+.meal-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.meal-tags span {
+  background: #f0f3eb;
+  color: #48664f;
+  padding: 8px 14px;
+  border-radius: 100px;
+  font-size: 13px;
+}
